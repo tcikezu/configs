@@ -1,0 +1,16 @@
+/* URxvt*font: xft:Iosevka Etoile:regular:size=12 */
+/* /1* URxvt*imFont: xft:Iosevka Etoile:italic:size=12 *1/ */
+/* URxvt*boldFont: xft:Iosevka Etoile:bold:size=12 */
+/* URxvt*italicFont: xft:Iosevka Etoile:italic:size=12 */
+/* URxvt*boldItalicFont: xft:Iosevka Etoile:bold italic:size=12 */
+
+URxvt*font: xft:Iosevka Term Slab:regular:size=12
+URxvt*boldFont: xft:Iosevka Term Slab:bold:size=12
+URxvt*italicFont: xft:Iosevka SS05:italic:light:size=12
+URxvt*boldItalicFont: xft:Iosevka Term Slab:bold italic:size=12
+
+URxvt*letterSpace: 1
+/* URxvt*rgba: none */
+
+URxvt*scrollBar: False
+URxvt*cursorBlink: True
