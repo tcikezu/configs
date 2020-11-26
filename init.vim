@@ -4,7 +4,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-commentary'
-Plug 'topope/vim-surround'
+Plug 'tpope/vim-surround'
 Plug 'yegappan/taglist'
 
 Plug 'vim-python/python-syntax'
@@ -18,7 +18,6 @@ Plug 'deoplete-plugins/deoplete-clang'
 Plug 'davidhalter/jedi-vim'
 
 Plug 'crusoexia/vim-monokai'
-Plug 'NLKNguyen/papercolor-theme'
 Plug 'whatyouhide/vim-gotham'
 Plug 'cormacrelf/vim-colors-github'
 
@@ -29,23 +28,17 @@ filetype on
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set textwidth=72
+set textwidth=79
 set autoindent
 set smartindent
 set fileformat=unix
 set cursorline
+hi CursorLine cterm=NONE ctermbg=lightred
 let g:python_highlight_all=1
 syntax enable
 
 "colorscheme gotham
 set background=light
-colorscheme PaperColor
-let g:PaperColor_Theme_Options = {
-\  'theme': {
-\       'allow_bold': 1,
-\       'allow_italic': 1
-\   },
-\ }
 
 highlight Comment cterm=italic gui=italic
 
@@ -68,5 +61,6 @@ let g:vim_markdown_folding_disabled = 1
 
 " Use deoplete
 let g:deoplete#enable_at_startup = 1
+let g:python3_host_prog = '~/.config/nvim/neovim3/bin/python'
 let g:jedi#completions_enabled = 0
 autocmd FileType python setlocal completeopt-=preview

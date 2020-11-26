@@ -1,0 +1,4 @@
+URxvt*font: xft:Iosevka Term Slab:regular:size=11
+URxvt*boldFont: xft:Iosevka Term Slab:bold:size=11
+URxvt*italicFont: xft:Iosevka SS05:italic:light:size=11
+URxvt*boldItalicFont: xft:Iosevka Term Slab:bold italic:size=11
